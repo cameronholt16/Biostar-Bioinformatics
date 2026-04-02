@@ -216,7 +216,6 @@ From browsing SRA:
 | Read length        | Short (~100 bp)      | Long            |
 | Length consistency | Very uniform         | Variable        |
 | Accuracy           | Very high            | Lower           |
-| Error
 
 These observed differences *might* be intrinsic to the technology, but it’s hard to disentangle from experimental variation.
 
