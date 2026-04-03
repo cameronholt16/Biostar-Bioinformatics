@@ -235,6 +235,7 @@ A few things I still don’t fully understand:
   * Some explanations suggest only one strand is sequenced after adapter processing
   * Yet we clearly get paired reads
   * Is this a different stage of the protocol, or am I misunderstanding something?
+  * Also, how are the reads paired in the data? What part of the physical sequencing process lets us recover the information of which strand was paired with which?
 
 * **Adapters vs FASTQC**
 

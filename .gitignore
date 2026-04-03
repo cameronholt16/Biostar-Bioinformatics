@@ -1,0 +1,51 @@
+# ----------------------------
+# OS / editor junk
+# ----------------------------
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# ----------------------------
+# Python / environments
+# ----------------------------
+__pycache__/
+*.pyc
+.env
+.venv/
+
+# ----------------------------
+# Bioinformatics large data
+# ----------------------------
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.sam
+*.vcf
+*.bcf
+
+# NCBI / downloads
+ncbi_dataset/
+ncbi_dataset.zip
+
+# Generic large outputs
+reads/
+*.log
+
+# ----------------------------
+# Default: ignore everything in week5
+# ----------------------------
+week5/*
+
+# Allow only specific files in week5
+!week5/README.md
+!week5/mrsa_rnaseq.sh
+!week5/md5sum.txt
+
+# ----------------------------
+# Keep everything in earlier weeks
+# ----------------------------
+# (no rules needed — they’re already tracked)
