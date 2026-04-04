@@ -214,5 +214,5 @@ A few things I would investigate further if I had more time:
 * Why exactly do Nanopore reads fail so badly with Bowtie2 in this workflow?
 * Why do I need to index the reference genome in two different ways?
 * Download the same number of reads from `SRR4932225` as from `SRR21835896` to make the coverage comparison more direct.
-* Investigate why `SRR4932225` completely misses the strongest peak from `SRR21835896`, while still sharing other local peaks nearby.
+* Investigate why `SRR4932225` completely misses the strongest peak from `SRR21835896`, while showing two bizzare blocks to the right.
 * Clean up the Makefile further, since `R1` and `R2` are probably still redundant in places now that the workflow handles different layouts.
