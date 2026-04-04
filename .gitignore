@@ -49,3 +49,12 @@ week5/*
 # Keep everything in earlier weeks
 # ----------------------------
 # (no rules needed — they’re already tracked)
+
+# Coverage / intermediate files
+*.bedgraph
+*.bw
+*.bai
+*.bt2
+
+# Read directories
+*.reads/
