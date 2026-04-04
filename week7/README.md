@@ -153,8 +153,10 @@ Interestingly, these are **not the same coordinate**.
 
 I saved screenshots from IGV:
 
-* `Week7_896_most_covered.png` shows the peak at `2500332` for `SRR21835896`. Strangely, `SRR4932225` has no reads there at all.
-* `Week7_2225_most_covered.png` shows a more natural-looking peak for `SRR4932225`. Both datasets show a local peak in this region.
+![SRR21835896 peak](week7_896_most_covered.png)
+This shows the peak at `2500332` for `SRR21835896`. Strangely, `SRR4932225` has no reads there at all.
+![SRR4932225 peak](week7_2225_most_covered.png)
+This shows a more natural-looking peak for `SRR4932225`. Both datasets show a local peak in this region.
 
 ## Gene of interest: *ebh*
 
