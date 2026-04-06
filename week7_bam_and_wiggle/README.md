@@ -1,4 +1,3 @@
-````markdown
 # Week 7 Assignment
 
 This assignment involved extending the week 6 workflow so that it could be reused on multiple sequencing runs, generating BAM and bigWig files, and comparing alignments from two datasets for the same organism.

@@ -249,11 +249,6 @@ A few things I still don’t fully understand:
   * Likely subsystem-related
   * Worth understanding for reproducibility
 
-* **Biological vs technical replication**
-
-  * Why is one sequencing run “enough”?
-  * Are SRRs replicates, or entirely different samples?
-
 * **Sequence duplication**
 
   * Needs proper investigation
