@@ -89,5 +89,5 @@ Getting the orientation right matters—otherwise the coding sequences don’t m
 
 * Incorrect orientation: ![Wrong Direction](week3_assignment_wrong_direction.png)
 * Correct orientation: ![Right Direction](week3_assignment_right_direction.png)
-
+* Stop Codon: ![Right Direction](week3_assignment_stop_codon.png)
 ---
