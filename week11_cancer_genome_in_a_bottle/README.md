@@ -113,7 +113,7 @@ Although maybe this is redundant, as repetitiveness could impact `QUAL`. I donâ€
 
 See below for a high-quality variant called in agreement with DeepVariant:
 
-![High QUAL variant agrees with DeepVariant](Week11_high_qual_agrees_with_deepvariant.png)
+![High QUAL variant agrees with DeepVariant](week11_high_qual_agrees_with_deepvariant.png)
 
 ## Summary
 
