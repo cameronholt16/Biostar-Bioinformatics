@@ -2,7 +2,7 @@
 
 ## Overview
 
-For this assignment, I used my **MRSA workflow from week 5**. It seems to tick all the boxes, so I stuck with the same data sources and the same overall workflow. I have very slightly changed my toolbox and Makefile now I’m slightly older and wiser.
+For this assignment, I used my **MRSA workflow from week 8**. It seems to tick all the boxes, so I stuck with the same data sources and the same overall workflow. I have very slightly changed my toolbox and Makefile now I’m slightly older and wiser.
 
 The workflow uses:
 
