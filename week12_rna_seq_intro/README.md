@@ -21,8 +21,8 @@ The submission includes:
 
 To run the workflow, I just:
 
-1. run `get_and_index_reference_genome`
-2. run `run_workflow_for_samples_named_in_csv N_READS=100000`
+1. `make get_and_index_reference_genome`
+2. `make run_workflow_for_samples_named_in_csv N_READS=100000`
 
 ---
 
