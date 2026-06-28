@@ -1,0 +1,7 @@
+SRR,sample,group,count_sample
+SRR21835898,control_rep1,control,control_rep1.aligned_reads
+SRR21835899,propionate_rep3,propionate,propionate_rep3.aligned_reads
+SRR21835896,control_rep3,control,control_rep3.aligned_reads
+SRR21835897,control_rep2,control,control_rep2.aligned_reads
+SRR21835900,propionate_rep2,propionate,propionate_rep2.aligned_reads
+SRR21835901,propionate_rep1,propionate,propionate_rep1.aligned_reads
