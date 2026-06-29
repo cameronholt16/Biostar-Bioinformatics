@@ -110,7 +110,7 @@ At a glance at the PANTHER results from last week, I notice a couple of things. 
 
 I’m interpreting part 3, “Find genes that are annotated with the term. List the genes,” to be talking about the organism more broadly, rather than the genes I found to be significant or the genes that survived pre-processing. I therefore went back to last week’s PANTHER jobs and used the default *Staphylococcus aureus* genome, rather than my reference list of DE gene candidates.
 
-There is probably a more direct way to get this information, but if it ain’t broke, don’t fix it. Some of these terms have hundreds of annotated genes, so rather than put them all in the README, I saved the full lists in the `gene_lists` folder. I link to each list below and discuss the relevance of the first gene listed.
+There is probably a more direct way to get this information, but if it ain’t broke, don’t fix it. Some of these terms have hundreds of annotated genes, so rather than put them all in the README, I saved the full lists in the `gene_lists` folder. I discuss the relevance of the first gene listed for each sub-ontology.
 
 ## Biological Process: nucleic acid metabolic process
 
@@ -137,8 +137,6 @@ Children:
 I suppose something might get tagged with “nucleic acid metabolic process” if it is involved in the making or breaking down of something to do with DNA or RNA. This is clearly quite a broad term.
 
 ![PANTHER results for nucleic acid metabolic process](week14_nucleaic_acid_metabolic_process.png)
-
-The full list of genes annotated with this term is in [`gene_lists/nucleic_acid_metabolic_process.txt`](gene_lists/nucleic_acid_metabolic_process.txt).
 
 The first gene on the list has a name: `Tryptophan--tRNA ligase`. This apparently sticks tryptophan on the corresponding tRNA for protein synthesis. It makes sense to me that this is a “nucleic acid metabolic process”, as the tRNA is a nucleic acid, and sticking a tryptophan residue to it is a metabolic (anabolic) process.
 
@@ -172,8 +170,6 @@ Parents:
 I suppose this term refers to a large ribosomal subunit located in the cytosol. This term looks very specific. No children were listed by `bio explain`, which I suppose is because this is already a fairly specific term.
 
 ![PANTHER results for cytosolic large ribosomal subunit](week14_cytosolic_large_ribosomal_subunit.png)
-
-The full list of genes annotated with this term is in [`gene_lists/cytosolic_large_ribosomal_subunit.txt`](gene_lists/cytosolic_large_ribosomal_subunit.txt).
 
 The first gene is for `Large ribosomal subunit protein uL22`, which certainly looks like it belongs in the set of genes related to the cytosolic large ribosomal subunit.
 
@@ -212,9 +208,7 @@ This is quite a broad relationship to an enormous family of proteins, so I guess
 
 ![PANTHER results for serine hydrolase activity](week14_serine_hydrolase_activity.png)
 
-The full list of genes annotated with this term is in [`gene_lists/serine_hydrolase_activity.txt`](gene_lists/serine_hydrolase_activity.txt).
-
-The first gene is for `Serine protease HtrA-like`, which makes sense, as serine proteases are a type of serine hydrolase. I suppose this is sort of specific, but not super specific.
+The first gene is for `Serine protease HtrA-like`, which makes sense, as serine proteases are a type of serine hydrolase.
 
 I am impressed with how well this genome seems to be annotated. The genes look like they belong to the GO terms, and there are lots of them, on the order of 100 for broad classes. It is kind of mind-blowing how much we know about the MRSA genome. It looks to me like no human could ever know all of this, so having all this information in free-to-access databases is essential and really quite cool.
 
